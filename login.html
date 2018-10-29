@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Login to My Own Blog!</title>
+	</head>
+	<style type="text/css">
+	body
+	{
+		background-color: #e5e7ea;
+	}
+	h1
+	{
+		color: #ba3939;
+		margin-left: 50px;
+	}
+	#my_table
+	{
+		margin-left:50px;
+	}
+	</style>
+	<body>
+		<h1>Log in to add entry!</h1>
+		<form action="login.php" method="POST">
+			<table id="my_table">
+				<tr>
+					<td>User Name: </td>
+					<td><input type="text" name="username"></td>
+				</tr>
+				<tr>
+					<td>Passoword: </td>
+					<td><input type="password" name="password"></td>
+				</tr>
+				<tr>
+					<td></td>
+					<td><input name = "submit" type="submit" value="Log in"></td>
+				</tr>
+			</table>
+		</form>
+
+	</body>
+</html>
